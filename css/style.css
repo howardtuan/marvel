@@ -1,0 +1,61 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Microsoft JhengHei;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#wrapper {
+	margin: 0px auto;
+	width: 1024px;
+}
+#logo {
+	/*height: 250px;*/
+}
+#logo img{
+	width: 100%;
+}
+nav {
+	background-color: #000;
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	margin: 0px;
+}
+li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+}
+li a {
+	display: block;
+	padding:  15px 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+li a:hover {
+	color: #FFC90E;
+}
+footer {
+	clear: both;
+	background-color: #71552A;
+	text-align: center;
+}
+footer p {
+	font-size: 10px;
+	color: #FFFFFF;
+	padding: 10px 0px;
+}
+@media screen and ( max-width: 1024px) {
+	#wrapper {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 640px) {
+	li a {
+		padding: 10px;
+	}
+}

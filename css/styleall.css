@@ -1,0 +1,28 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Microsoft JhengHei;
+	background-color: #F4F4ED;
+}
+#photo{
+	padding: 30px 30px;
+}
+.photo{
+	padding: 30px 30px;
+}
+#introduction{
+	padding: 30px 10px;
+}
+#introduction h1{
+	margin-bottom: 10px;
+	color: #B63D32;
+}
+.mcu{
+	margin: 0 auto;
+}
+.mcu h1{
+	color: #B63D32;
+	text-align: center;
+}
